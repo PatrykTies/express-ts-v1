@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "test": "jest --watchAll",
-    "start": "node ./bin/www"
+    "start": "ts-node src/server.ts"
   },
   "author": "pties",
   "license": "ISC",
