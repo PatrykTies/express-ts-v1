@@ -5,8 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "test": "jest --watchAll",
-    "start-server": "ts-node src/server.ts",
-    "start": "nodemon -e ts -w ./src -x npm run start-server"
+    "start": "node ./bin/www"
   },
   "author": "pties",
   "license": "ISC",
@@ -24,3 +23,6 @@
     "express": "^4.16.4"
   }
 }
+
+// "start-server": "ts-node src/server.ts",
+// "start": "nodemon -e ts -w ./src -x npm run start-server"
