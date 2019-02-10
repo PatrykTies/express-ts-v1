@@ -4,7 +4,9 @@
   "description": "express typescript postgresql",
   "main": "server.ts",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "start-server": "ts-node src/server.ts",
+    "start": "nodemon -e ts -w ./src -x npm run start-server"
   },
   "author": "pties",
   "license": "ISC",
@@ -13,7 +15,9 @@
     "@types/jest": "^24.0.0",
     "@types/node": "^10.12.24",
     "jest": "^24.1.0",
+    "nodemon": "^1.18.10",
     "ts-jest": "^23.10.5",
+    "ts-node": "^8.0.2",
     "typescript": "^3.3.3"
   },
   "dependencies": {

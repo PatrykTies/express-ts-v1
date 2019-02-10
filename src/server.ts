@@ -1,3 +1,8 @@
-export const sum
-  = (...a: number[]) =>
-    a.reduce((acc, val) => acc + val, 0);
+import * as express from 'express'
+
+const app = express()
+app.get('/', (req,res,next)=>{
+  res.send('Tour booking api')
+})
+
+app.listen(process.env.PORT || 9000, ()=> console.log('Server started...'))
