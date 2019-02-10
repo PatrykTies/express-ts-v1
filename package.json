@@ -24,5 +24,3 @@
   }
 }
 
-// "start-server": "ts-node src/server.ts",
-// "start": "nodemon -e ts -w ./src -x npm run start-server"
